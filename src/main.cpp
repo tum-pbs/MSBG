@@ -27,6 +27,25 @@
 
 int nMaxThreads=-1;
 
+/*-------------------------------------------------------------------*/
+/* 								     */	
+/*-------------------------------------------------------------------*/
+static void showUsage( void )
+{
+  printf("\n");
+  printf("usage: msbg_demo <options>\n" );
+  printf("options:\n");
+  printf("  -c<n>  Test case (1=low-res bunny-of-bunnies, 2=high-res bunny-of-bunnies)\n");  
+  printf("  -r<n>  Effective volume resolution (default=1024)\n");
+  printf("  -b<n>  MSBG base block resultion (n=16 or n=32, default=16)\n");
+  printf("  -a<x,y,z,ax,ay,az,f>  Camera: position (x,y,z), look-at point (ax,ay,az) and focal-lentgh\n");
+  printf("  -l<x,y,z>  Scene light position\n");
+  printf("  -i<width,height>  Camera render resolution.\n");
+  printf("  -v<n>  Log-level (0-3)\n");
+  printf("  -h show this help\n");  
+  printf("\n");
+}
+
 int main(int argc, char **argv) 
 {
   int multiProc=0,
@@ -60,7 +79,7 @@ int main(int argc, char **argv)
   //
   char filename[UT_MAXPATHLEN];
   strcpy(filename,"c:/tmp/msbgtest.vdb");
-  int resolution = 768;
+  int resolution = 1024;
 
   extern float camPos[3];
   extern float camLookAt[3];
@@ -70,10 +89,16 @@ int main(int argc, char **argv)
 
   {
     char c;
-    while((c = getopt(argc,argv,"l:i:a:b:u:r:f:c:jv:")) != EOF)
+    while((c = getopt(argc,argv,"hl:i:a:b:u:r:f:c:jv:")) != EOF)
     {
       switch(c)
       {
+	case 'h':
+	  {
+	    showUsage();
+	    exit(0);
+	  }
+	  break;
         case 'a':
 	   {
 	     UT::StrTok t(optarg,","); 
@@ -201,4 +226,3 @@ int main(int argc, char **argv)
   
   return 0;
 }
-
