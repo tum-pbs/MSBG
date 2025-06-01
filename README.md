@@ -28,7 +28,7 @@ already included for convenience.
 
 ## Limitations
 
-At this stage, the MSBG library is still in an experimental phase. Some features may be insufficiently tested and lack comprehensive documentation.
+At this stage, the MSBG library is still in an experimental phase (research code). Some features may be insufficiently tested and lack comprehensive documentation. It is recommended to refer to msbg_demo.cpp for usage examples of the library.
 
 ---
 
