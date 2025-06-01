@@ -1,3 +1,27 @@
+# misc
+scratch.txt
+GPATH
+GRTAGS
+GTAGS
+gtags*
+tmp*
+tmp*/
+gen*/
+mk_test
+mk_editor
+finds
+todo.txt
+notes.txt
+scratch.txt
+*.log
+*.bak
+rs 
+sv
+build*
+build*/
+build*/*
+bin/*
+
 # Prerequisites
 *.d
 
