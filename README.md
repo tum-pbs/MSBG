@@ -17,6 +17,10 @@ Simulation" by Bernhard Braun, Jan Bender and Nils Thuerey.
 * Highly efficient PDE solver for sparse volumes that can advance the solution at a speed of ~10 billion unknowns per second per iteration. 
 * Command-line demo program demonstrating sparse surface reconstructing from particles and sparse PDE smoothing. 
 
+<p align="left">
+  <img src="images/comparison_MSBG_octree.png" alt="comparison_MSBG_octree" />
+</p>
+
 ## Prerequisites
 
 MSBG has only few dependencies: Just C++11 and TBB <https://github.com/uxlfoundation/oneTBB>. The vectorclass header-only library <https://github.com/vectorclass/version1> is
