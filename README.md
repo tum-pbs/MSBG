@@ -37,5 +37,5 @@ cd MSBG
 mkdir build && cd build
 
 # simple Make-based build provided for convenience
-../mk               # builds the 'msbg_demo' executable
+../mk               # builds the library and 'msbg_demo' executable
 
