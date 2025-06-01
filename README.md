@@ -23,8 +23,8 @@ Simulation" by Bernhard Braun, Jan Bender and Nils Thuerey.
 
 ## Prerequisites
 
-MSBG has only few dependencies: Just C++11 and TBB <https://github.com/uxlfoundation/oneTBB>. The vectorclass header-only library <https://github.com/vectorclass/version1> is
-already included for convenience. 
+MSBG has only a few dependencies: Just C++11 and TBB <https://github.com/uxlfoundation/oneTBB>. The header-only VectorClass library <https://github.com/vectorclass/version1> is
+already included for convenience. The MSBG library compiles on Linux as well as on Windows via MSYS2 MinGW64.
 
 ## Limitations
 
