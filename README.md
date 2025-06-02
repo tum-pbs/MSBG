@@ -4,8 +4,8 @@
 
 # MSBG — Multiresolution Sparse Block Grids 
 
-Implementation of the **Multiresolution Sparse Block Grid (MSBG)** data-structure as introduced in the SIGGRAPH 2025 paper "Adaptive Phase-Field-FLIP for Very Large Scale Two-Phase Fluid
-Simulation" by Bernhard Braun, Jan Bender and Nils Thuerey.
+Implementation of the **Multiresolution Sparse Block Grid (MSBG)** data-structure as introduced in the SIGGRAPH 2025 paper [Adaptive Phase-Field-FLIP for Very Large Scale Two-Phase Fluid
+Simulation](https://ge.in.tum.de/download/Adaptive_Phase_Field_FLIP_preprint.pdf) by Bernhard Braun, Jan Bender and Nils Thuerey.
 
 ---
 
