@@ -24,7 +24,7 @@ Simulation](https://ge.in.tum.de/download/Adaptive_Phase_Field_FLIP_preprint.pdf
 ## Bunny-of-bunnies example 
 
 The included demo executable implements the bunny-of-bunnies example (left-hand side of the teaser image above), as described in Section 8.1 of the paper  [Adaptive Phase-Field-FLIP for Very Large Scale Two-Phase Fluid
-Simulation](https://ge.in.tum.de/download/Adaptive_Phase_Field_FLIP_preprint.pdf): A surface, sparsely embedded in an MSBG volume is reconstructed via lockless 8-color particle splatting and MSBGs multicolor in-place mean curvature flow PDE from 32,000 Stanford bunnies—each of which, in turn, consists of 32,000 point samples. The example was ran with an effective resolution of 32,768 × 32,768 × 32,768 virtual voxels and 1 billion physical voxels on a single CPU (32 cores) with 256 GB of RAM. 
+Simulation](https://ge.in.tum.de/download/Adaptive_Phase_Field_FLIP_preprint.pdf): A surface, sparsely embedded in an MSBG volume is reconstructed via lockless 8-color particle splatting and MSBGs multicolor-in-place mean curvature flow PDE solver from 32,000 Stanford bunnies—each of which, in turn, consists of 32,000 point samples. The example was ran with an effective resolution of 32,768 × 32,768 × 32,768 on a single CPU with 256 GB of RAM. Here, the MSBG base block resolution was set to 32x32x32.
 
 ## Prerequisites
 
