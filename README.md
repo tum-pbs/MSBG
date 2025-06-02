@@ -21,6 +21,11 @@ Simulation](https://ge.in.tum.de/download/Adaptive_Phase_Field_FLIP_preprint.pdf
   <img src="images/comparison_MSBG_octree.png" alt="comparison_MSBG_octree" />
 </p>
 
+## Bunny-of-bunnies example 
+
+The included demo executable implements the bunny-of-bunnies example (left-hand side of the teaser image above), as described in Section 8.1 of the paper  [Adaptive Phase-Field-FLIP for Very Large Scale Two-Phase Fluid
+Simulation](https://ge.in.tum.de/download/Adaptive_Phase_Field_FLIP_preprint.pdf): A surface, sparsely embedded in an MSBG volume is reconstructed via lockless 8-color particle splatting and MSBGs multicolor in-place mean curvature flow PDE from 32,000 Stanford bunnies—each of which, in turn, consists of 32,000 point samples. The example was ran with an effective resolution of 32,768 × 32,768 × 32,768 virtual voxels and 1 billion physical voxels on a single CPU (32 cores) with 256 GB of RAM. 
+
 ## Prerequisites
 
 MSBG has only a few dependencies: Just C++11 and TBB <https://github.com/uxlfoundation/oneTBB>. The header-only VectorClass library <https://github.com/vectorclass/version1> is
