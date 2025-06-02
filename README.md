@@ -11,7 +11,7 @@ Simulation" by Bernhard Braun, Jan Bender and Nils Thuerey.
 
 ## Key Features
 
-* Extremely efficient data structure supporting both sparseness and multiresolution adaptivity.  
+* Extremely efficient treeless spatially adaptive data structure supporting both sparseness and multiresolution adaptivity.  
 * No GPU needed. Designed for maximum efficiency on the CPU in order to leverage maximum RAM ressources for very large scale scenarios.   
 * On a single CPU (32 cores, 256 GB RAM), MSBG is able to process sparse 3D Volumes at an effective resolution of 32768^3 containing 100 billion active (out of 30 trillion virtual) voxels at 16 bit precisison.
 * Highly efficient PDE solver for sparse volumes that can advance the solution at a speed of ~10 billion unknowns per second per iteration. 
